@@ -1,4 +1,4 @@
-## The Hybrid Theory of Data Scientist
+## The Hybrid Theories of a Data Scientist
 
 In this blog, I would like to highlight a few aspects and differences about what data scientists work on with respect to their close neighbors, statisticians, that share more or less simialar technicalities.
 
@@ -15,5 +15,5 @@ A hidden third requirement to be a data scientist is to have a in-depth knowledg
 But enough about the requirements, what do data scientists actually do? 
 A data sceintist is able to read huge amount of data efficiently, scapre it, mine it, transform it when needed, and most importantly extract the useful information that lies in it (sometimes it is done using just simple visualization techniques, or sometimes it is done by rigorous programming to extract hidden information from layers and layers of data). A data scientist is someone who has a solid foundation of statistics, knwos the principles and undertsands how to interprete the results from various statistical models. Advancing from that step, a data scientist is also able to develop machine learning algorithms to find and extract a pattern of "target" to predict future values of the partucaular "niche target" more accurately, and can drive business decisions accordingly.
 
-![datasceince](https://github.com/sbgadhwala/sbgadhwala.github.io/blob/main/datascientist.png)
+![datasceince](https://github.com/sbgadhwala/sbgadhwala.github.io/blob/main/datascientist.png)  
 To summarize in brief, a data sceintist has knowledge of (atleast) one dominating programming lanhuage (Python, R, SAS, etc), a strong foundation of statistics (model buidling, various regressions, etc), and can build machine learning models to estimate and drive future busniess decisions more accurately.
