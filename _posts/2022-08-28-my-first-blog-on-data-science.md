@@ -1,4 +1,4 @@
-## Data Scientists: The A-Class Hybrids
+## Data Scientists: An Overview 
 
 In this blog, I would like to highlight a few aspects and differences about what data scientists work on with respect to their close neighbors, statisticians, that share more or less simialar technicalities.
 
