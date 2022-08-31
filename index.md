@@ -3,7 +3,7 @@ This website is made as a part of assignment submission for ST 558 course. The l
 A few words about me: I am a 2nd year graduate student in Industrial Engineering at North Carolina State University. My research interests lie in Data Sciecne, Programming, Automation and Statistics. Having worked in industry for a couple of years, below are the blogs about my thoughts on Data Sciecne and how it differs from it's overlapping fields.
 
 <img
-  src="2019-Formula1-Racing-Point-RP19-V5-10801.jpg"
+  src="belltower-night-1920x1080.jpg"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
