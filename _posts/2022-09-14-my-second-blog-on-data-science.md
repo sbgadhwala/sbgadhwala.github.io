@@ -6,5 +6,5 @@ One of the things I did differently was the extraction of year from the data. Wh
 
 I also saw how to plot different graphs using different data, and different filter, sorting conditions. I designed finctions for custom classes ('county', and 'state'), and when the plot for that particular class was called, a function would be called (with certain default values) to output the graph using ggplot2 library. The function also allowed user to send arguments as per their requirement, to plot very specific information (in the case of state type class).
 
-The link to my project is given below:
-<https://github.com/sbgadhwala/sbgadhwala.github.io/blob/main/Shyam_Gadhwala_Project_1.html>[My first Project] 
+The link to my project is given below:  
+[My first Project](https://github.com/sbgadhwala/sbgadhwala.github.io/blob/main/Shyam_Gadhwala_Project_1.html)
