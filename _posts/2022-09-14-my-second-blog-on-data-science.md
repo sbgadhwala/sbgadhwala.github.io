@@ -1,4 +1,4 @@
-## Project 1: Getting Started with R
+## Project 1: Getting Started with Functions in R
   
 * I just finished my [first project](https://sbgadhwala.github.io/Shyam_Gadhwala_Project_1.html) for the ST 558: Data Science for Statisticians. The purpose of the first project was to get familiarized with R's object oriented programming, functions and loops in R. I learned about technicalities of functions, how to define one, how to pass arguments, how to read them, how to define default values for certain arguments. Further, I also learned about the if, else loops, the `%in%` operator and its  syntax, and how to implememt them within a function. I also learned about manipulating data, extracting precise information that had been asked in the question, that included filtering data, arranging data, summarizing, and clubbing up data to create a list to return from a function. I also got familiar with extracting certain characters from strings, using the sub_str() function in R, splitting the data based on any character within the string, and creating new columns with the modified string. 
   
