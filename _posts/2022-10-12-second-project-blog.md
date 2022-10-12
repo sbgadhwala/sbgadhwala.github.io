@@ -34,6 +34,6 @@ To understand more about the data retrieved from the API, I performed some Explo
  
  <img
   src="/docs/assets/project2_sun.png"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: auto">
 
 Finally, the wrapper function that was created first which would allow the user to give the API name that they are intersted in as an input, along with the modifiactions for that endpoint that the user wants to select and modify. To access my defined API function, user can give either "CME" or "Coronal Mass Ejection (CME) Analysis as the input for API.
