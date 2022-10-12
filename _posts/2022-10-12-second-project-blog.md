@@ -15,6 +15,15 @@ First, I explored the NASA's website to know all the details about this API. The
   * Speed (speed)
   * Half Angle (halfAngle)
 
-The helper fuction for this API is such that it expects user to give Start Date and End Date as mandatory inputs, while, if the speed and half angle would take a default value of 0 if left blank.
+The helper fuction for this API is such that it expects user to give Start Date and End Date as mandatory inputs, while, if the speed and half angle would take a default value of 0 if left blank. For the given start date, end date, speed and half angle, a target URL would be generated and called, and that API call would return JSON formatted data of all the CME events that occured between those dates and had those speed and half angle characteristics.
+
+One of the most challenging part of the API function call was to:
+ * Understand the structure of the data, and see which information is at which level, extract the important and relevant information and put them into a tibble collectively and return that from the function 
+ * To understand what data is relevant and what can be ignored. After a thorough observation through the data, the following details regarding the events was returned in for of a tibble:
+   * Time (of the CME event)
+   * Latitude (of the CME event)
+   * Longitude (of the CME event)
+   * Speed (of the explosion)
+   * Half Angle (of the explosion)
 
 Finally, the wrapper function that was created first which would allow the user to give the API name that they are intersted in as an input, along with the modifiactions for that endpoint that the user wants to select and modify. To access my defined API function, user can give either "CME" or "Coronal Mass Ejection (CME) Analysis as the input for API.
