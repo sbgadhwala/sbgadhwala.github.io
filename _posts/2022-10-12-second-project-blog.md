@@ -33,7 +33,7 @@ To understand more about the data retrieved from the API, I performed some Explo
  For this, I created my own varibales from the existing variables in th data, and plotted several graphs usign them, and one of the most intersting graph I plotted is the one that depicts the latitude and longitude of the sun where each CME event took place, classified according to their event type and speed. That graph is as shown:
  
  <img
-  src="/docs/assets/belltower-night-1920x1080.jpg"
+  src="/docs/assets/project2_sun.png"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 Finally, the wrapper function that was created first which would allow the user to give the API name that they are intersted in as an input, along with the modifiactions for that endpoint that the user wants to select and modify. To access my defined API function, user can give either "CME" or "Coronal Mass Ejection (CME) Analysis as the input for API.
