@@ -1,6 +1,6 @@
 # Project 2 - NASA APIs
 
-Link to my rendered project file : [here](https://sbgadhwala.github.io/ST558_Project2/)
+Link to my rendered project file : [here](https://sbgadhwala.github.io/ST558_Project2/)  
 Link to my project 2 repository : [here](https://github.com/sbgadhwala/ST558_Project2/)
 
 I finished my [second project](https://sbgadhwala.github.io/ST558_Project2/) for the ST558: Data Science for Statisticians course that revolved around dealing with APIs and Exploratory Data Analysis. The main aim of this project was to get a hands on experience with different API endpoints, and all the different modifications that the endpoint offers.  In this project, I worked with one of [NASA APIs](https://api.nasa.gov/index.html) for space weather science - [Cornonal Mass Ejection (CME) Analysis](https://api.nasa.gov/index.html#donkiCMEAnalysis), which is an API that helps fetch the collected data for all the cornoal mass ejection events that occurred on the sun's corona layer.
