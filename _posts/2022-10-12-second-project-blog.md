@@ -26,4 +26,11 @@ One of the most challenging part of the API function call was to:
    * Speed (of the explosion)
    * Half Angle (of the explosion)
 
+To understand more about the data retrieved from the API, I performed some Exploratory Data Analysis (EDA), and created relevant graphs using the ggplot2 library. One of the main challenges in that was to:
+  * decide which varibales to plot
+  * How to communicate the data details effectively
+ 
+ For this, I created my own varibales from the existing variables in th data, and plotted several graphs usign them, and one of the most intersting graph I plotted is the one that depicts the latitude and longitude of the sun where each CME event took place, classified according to their event type and speed. That graph is as shown:
+ 
+
 Finally, the wrapper function that was created first which would allow the user to give the API name that they are intersted in as an input, along with the modifiactions for that endpoint that the user wants to select and modify. To access my defined API function, user can give either "CME" or "Coronal Mass Ejection (CME) Analysis as the input for API.
