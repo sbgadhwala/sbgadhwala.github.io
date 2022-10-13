@@ -42,7 +42,7 @@ To understand more about the data retrieved from the API, I performed some Explo
  For this, I created my own varibales from the existing variables in th data, and plotted several graphs using them, and one of the **most intersting graph** I plotted is the one that depicts the latitude and longitude of the sun where each CME event took place, classified according to their event type and speed. That graph is as shown:
  
  <img
-  src="/docs/assets/project2_sun.png"
+  src="/docs/assets/sun_stats.png"
   style="display: inline-block; margin: 0 auto; max-width: auto">
   
 After plotting various graphs, I got a pretty good insight about the details of the CME events that were not visible just from the raw data. A few collective graps (like the one shown above, the dodge type bar plot and the histogram) really helped in knowing more details about the events classified into different factors.
