@@ -4,7 +4,7 @@ As a data scientist, one of the very first tasks when given a data is to underst
 
 Exploratory Data Analysis can be done on from a single variable in the data set to the whole data itself. Based on the type of variables we are dealing with, we can proceed accordingly. The most common starting point is the summary of the data, which provides us some general statistics like miminum value, maximum value, mean, etc about numeric data in the data set. Moving onto the next step, one of the important analysis would be to count the number of missing variables, and of possible fill them with either mean or median of the data, depending on distribution.
 
-## Initial steps to perform EDA
+## Steps involved in EDA
 
 EDA can be both graphical and non graphical. We'll explore both of them here in this blog.
 
