@@ -26,3 +26,9 @@ There are many plots that can be drawn out to represent different characteristic
   *  Histogram
   *  Probability Distribution Function
   *  Cummulative Distribution Function
+
+A bar plot and a histogram are generally used to see a distribution of the variables, can be count, can be some metric, and can also be categorized with respect to variables. Scatter plots and Line plots are generally used to see any patterns in the data and seasonality trends if any. Box plot is used to see the outliers in the dataset, and the mean and median of the variables in the data. Probability Distribution functions is plotted when we want to visualize variability in the data with respect to any number, like a normal distribution bell curve. Cummulative distribution function supplements the PDF, and helps visualize the percentile of data falling on which number.
+
+## Conclusion
+
+There are a lot of ways to summarize and visualize the data based on raw data, transformed data, grouped data and even missing data. What is the main goal of EDA has to be kept in mind and all the analysis should revolve around that, which plots to make, what data is necessary, what should be removed, are all a part of Exploratory Data Analysis.
