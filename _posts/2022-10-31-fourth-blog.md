@@ -11,3 +11,11 @@ Before we actually go to the variable selection step, variable transformation al
   *  Arcsine Transformation
 
 The most easiest one is the log transformation where we simply take the log of that variable and use it for furher modelling and analysis. Next up, box-cox transfomation is a little more dynamic than log, since it delas with the variance and mean of the data that has to transformed and it adjusts the Labmda accordingly. Lastly, arcsine transformation is used to transform that represents probability or proportions between 0 and 1. The arcsine transformation will help make the variances more constant throughout the data such that it would appear normally distributed as well. All these discussed transformations are readily available in almost any data science tools and languages (like R, Python and SAS to name some).
+
+Note: If any variable is transformed, one has to transform it back to its original data distribution type either after designing the model or before making predictions using that model.
+
+## Variable Selection
+
+After we are done with transformations of the variables, lets have a little more look into how to select the "best" variables. The variable selection is also knows as finding the best combination of the original variables to include in a model.
+
+We start with a simple linear regression model. 
