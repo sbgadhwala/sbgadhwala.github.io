@@ -18,4 +18,23 @@ Note: If any variable is transformed, one has to transform it back to its origin
 
 After we are done with transformations of the variables, lets have a little more look into how to select the "best" variables. The variable selection is also knows as finding the best combination of the original variables to include in a model.
 
-We start with a simple linear regression model. 
+We start with a simple linear regression model. Once we have selected all the available independent variables in the model, and fit it, the summary of the models are available in all the tools, where we can see the p-values of each IV. Depending on the confidence level (alpha), we can subset out the IVs that are statisically significant. All other non-significant variables can be removed from the model to make the model "better".
+
+Now, as we move to some more complex models, we have other models that provide the ability to select the best fitting IVs. Some of the models to note here are:
+
+  * Backward Elimination
+  * Forward Selection
+  * Stepwise Forward
+  * Stepwise Backward
+  * Best Subset Selection
+  * LASSO
+
+(Some of the models are classified as the Criterion-based procedure models since they operate on basis of AIC and BIC values of the model. We'll talk about that in a while)
+
+The backward elimination (BE) model and the Forward Selection (FS) models work on opposite concepts. The BE model takes the global model with all the IVs, and starts with eliminating the least significant IV, and reevaluate the model, while FS works with starting with most significant IV from the model, and adding one IV at a time and reevaluate the model. Out of the two, most practicing statisticians prefer the Backward Elimination model, especially when collinearity is present in the data set.
+Here, when any of these models is built, we get the selection of the best combination of the IVs for the model.
+
+
+Coming to the two models. Stepwise Forward and Stepwise Backward model, they also work on opposite priciples, and they utilize the steps mentioned in the above models. In Stepwise forward, the step is started with null model, and a FS step is performed. After theat, after each inclusion of IV, a BE step is performed. Repeating this, this model is repeated until there are no IVs to add/remove. In stewpwise backward model, the starting step is the global model with all the IVs present, and the BE and FS cycle is implemented like the previous model, until there are no IVs left to remove/add.
+
+
